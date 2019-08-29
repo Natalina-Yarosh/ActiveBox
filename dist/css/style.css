@@ -87,7 +87,7 @@ p{
     height: 750px;
     padding-top: 100px;
 
-    background: #31344e url("/aside/intro-bg.jpg") center no-repeat / cover;
+    background: #31344e url("/dist/aside/intro-bg.jpg") center no-repeat / cover;
 }
 
 .intro__inner{
@@ -142,4 +142,39 @@ p{
 
 .btn--red:hover{
     background-color: rgb(201, 55, 55)
+}
+
+/*Intro*/
+
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+
+.features__item{
+    width: 33.33%;
+    padding: 0 30px;
+    margin: 25px 0;
+
+    text-align: center;    
+}
+
+.features__icon{
+    margin-bottom: 20px;
+}
+
+.features__title{
+    font-size: 14px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-bottom: 15px;
+}
+
+.features__text{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
 }
