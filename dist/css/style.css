@@ -651,4 +651,27 @@ p{
     .downloads__title{
         font-size: 24px;
     }
+
+    /*Footer*/
+    .footer__inner{
+        padding: 30px 0;
+    }
+
+    .footer_block{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer_block:last-child{
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 767px){
+    /*Testmolials*/
+    .reviews__img{
+        right: -100px;
+    }
 }
