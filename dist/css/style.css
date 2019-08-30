@@ -572,6 +572,20 @@ p{
     .social{
         justify-content: center;
     }
+
+    /*Testimonials*/
+    .reviews__photo{
+        margin: 15px 0 40px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .reviews__content{
+        width: 100%; 
+        
+        padding-left: 0;
+        padding-bottom: 40px;
+    }
 }
 
 @media (max-width: 767px){
@@ -610,12 +624,31 @@ p{
 
     /*Team*/
     .team{
-        margin: 60px 0 30px;s
+        margin: 60px 0 30px;
     }
 
     .team__item{
         width: 100%;
 
         text-align: center;
+    }
+
+    /*Testmpnials*/
+    .reviews__text{
+        font-size: 25px;
+    }
+
+    /*Btn*/
+    .btn--long{
+        min-width: 260px;
+    }
+
+    /*Downloads*/
+    .downloads{
+        margin: 50px 0;
+    }
+
+    .downloads__title{
+        font-size: 24px;
     }
 }
