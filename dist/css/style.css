@@ -527,6 +527,7 @@ p{
 .burger__item::after{
     bottom: -8px;
 }
+
 /*Media*/
 
 @media (max-width: 991px){
@@ -541,6 +542,11 @@ p{
 
     .intro__title{
         font-size: 40px;
+    }
+
+    /*Features*/
+    .features__item{
+        width: 50%;
     }
 }
 
@@ -558,5 +564,17 @@ p{
         font-size: 15px;
 
         margin-bottom: 30px;
+    }
+
+    /*Features*/
+
+    .features{
+        padding: 50px 0;
+    }
+
+    .features__item{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
