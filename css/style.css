@@ -133,8 +133,7 @@ p{
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
-
-  
+    text-align: center; 
 }
 
 .btn--red{
@@ -143,6 +142,10 @@ p{
 
 .btn--red:hover{
     background-color: rgb(201, 55, 55)
+}
+
+.btn--long{
+    min-width: 280px;
 }
 
 /*Intro*/
@@ -381,4 +384,31 @@ p{
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
+}
+
+/*Download*/
+.downloads{
+    margin: 90px 0;
+
+    text-align: center;
+
+}
+
+.downloads__title{
+    margin-bottom: 10px;
+
+    font-size: 28px;
+    color: #2d3033;
+    font-weight: 300;
+
+}
+
+.downloads__text{
+    margin-bottom: 30px;
+
+    font-size: 13px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;
+
 }
