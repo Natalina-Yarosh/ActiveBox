@@ -206,6 +206,7 @@ p{
 }
 
 .works__photo{
+    min-width: 100%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -531,6 +532,13 @@ p{
 /*Media*/
 
 @media (max-width: 991px){
+    /*Works*/
+    .works__item{
+        width: 50%;
+    }    
+}
+
+@media (max-width: 991px){
     /*Intro*/
     .nav{
         display: none;
@@ -569,12 +577,18 @@ p{
     /*Features*/
 
     .features{
-        padding: 50px 0;
+        padding: 40px 0;
     }
 
     .features__item{
         width: 100%;
         padding-left: 0;
         padding-right: 0;
+    }
+
+    /*Works*/
+    .works__item{
+        width: 100%;
+        height: 300px;;
     }
 }
