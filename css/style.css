@@ -75,9 +75,13 @@ p{
 
 .nav{
     display: flex;
+
+    z-index: 4;
+
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
+    
 }
 
 .nav__link{
@@ -85,6 +89,8 @@ p{
 
     color: #fff;
     opacity: .75;
+
+    z-index: 4;
 }
 
 .nav__link:first-child{
@@ -545,6 +551,9 @@ p{
     bottom: -8px;
 }
 
+
+
+
 /*Media*/
 
 @media (max-width: 991px){
@@ -558,6 +567,24 @@ p{
     /*Intro*/
     .nav{
         display: none;
+        width: 100%;
+        flex-direction: column;
+
+        background-color: #31344e;
+        text-align: right;
+
+        position: absolute;
+        top: 100%;
+        right: 0; 
+    }
+
+    .nav.show{
+        display: flex;
+    }
+
+    .nav__link{
+        padding: 9px 15px; 
+
     }
 
     .burger{
